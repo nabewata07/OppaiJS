@@ -8,6 +8,10 @@ We made this to participate in NKO.
 
 Since NKO repository disappeared, I was transplanted.
 
+Just start! You can understand it without my word.
+
+that's all.
+
 ##Start
 Please perform the following.
 
