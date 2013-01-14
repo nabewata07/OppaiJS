@@ -3,7 +3,7 @@
 (function (doc, win, $doc) {
   var CAMERA_ORBIT      = 0.0025,
       DISPLACEMENT      = 0.15,
-      SPRING_STRENGTH   = 0.0005,
+      SPRING_STRENGTH   = 0.005,
       DAMPEN            = 0.998,
       ORIGIN            = new THREE.Vector3(),
       DEPTH             = 600;
@@ -245,7 +245,7 @@
   }
 
   Oppai.prototype.spring = function() {
-    var magnitude = 0.006,
+    var magnitude = 0.06,
       that = this;
 
     this.on('oppai.spring', function(face) {
