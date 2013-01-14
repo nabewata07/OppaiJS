@@ -1,0 +1,25 @@
+{
+  "name": "nko3-kusattamikan",
+  "version": "0.0.0-13",
+  "description": "kusattamikan",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nko3/kusattamikan.git"
+  },
+  "dependencies": {
+    "express": "~3.0.2",
+    "jade": "*",
+    "socket.io": "~0.9.11"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "subdomain": "kusattamikan.nko3"
+}

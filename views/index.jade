@@ -1,0 +1,32 @@
+doctype 5
+html
+  head
+    meta(charset='utf-8')
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/base.css')
+    link(rel='stylesheet', href='/stylesheets/app.css')
+
+    script(type='text/javascript', src="/javascripts/library/jquery.js")
+    script(type='text/javascript', src="/javascripts/library/EventEmitter.js")
+    script(type='text/javascript', src="/javascripts/library/bootstrap.js")
+    script(type='text/javascript', src="/javascripts/library/three.js")
+    script(type='text/javascript', src="/javascripts/library/TrackballControls.js")
+    script(type='text/javascript', src="/socket.io/socket.io.js")
+    script(type='text/javascript', src="/javascripts/app/Controller.js")
+    script(type='text/javascript', src="/javascripts/app/object/3D.js")
+    script(type='text/javascript', src="/javascripts/app/object/Oppai.js")
+    script(type='text/javascript', src="/javascripts/app/object/Voice.js")
+    script(type='text/javascript', src="/javascripts/app/object/Meter.js")
+    script(type='text/javascript', src="/javascripts/app/object/Hunter.js")
+  body
+    div.container
+      div#intro.hero-unit
+        h1
+          img(src="/images/intro-title.png", alt=title)
+
+        p.copy [ We realized our dream to render Oppai ]
+        p.instruction Drag to rotate, scroll to zoom. Red balls are other dreamers who are simultaneously watching Oppai.
+
+    div#oppai
