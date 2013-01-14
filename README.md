@@ -21,8 +21,8 @@ Please perform the following.
 
 ##Branch
 
-spring: it sway.
-ionazun: it very sway and explode.
+* spring: it sway.
+* ionazun: it very sway and explode.
 
 
 ##Contributors
