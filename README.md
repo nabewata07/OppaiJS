@@ -17,7 +17,7 @@ Please perform the following.
 
     npm start
 
-(default port is 3000)
+(default port is 80)
 
 ##Branch
 
