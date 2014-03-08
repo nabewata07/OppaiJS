@@ -13,13 +13,11 @@
   "dependencies": {
     "express": "~3.0.2",
     "jade": "*",
-    "socket.io": "~0.9.11"
+    "socket.io": "~0.9.11",
+    "leapjs": "~0.4.1"
   },
   "engines": {
     "node": "0.8.x"
-  },
-  "scripts": {
-    "start": "node server.js"
   },
   "subdomain": "kusattamikan.nko3"
 }
